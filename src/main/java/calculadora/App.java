@@ -8,6 +8,10 @@ public class App {
     public static void main(String[] args) {
         Calculadora c = new Calculadora();
 
+        calculadoraEjecutando(c);
+    }
+
+    private static void calculadoraEjecutando(Calculadora c) {
         System.out.println("CALCULADORA");
         System.out.println("===========");
         System.out.println("2+3="+c.suma(2,3));
